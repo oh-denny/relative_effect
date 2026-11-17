@@ -1,0 +1,23 @@
+Package: REffect
+Title: Bootstrap Confidence Bands for Nonparametric Relative Effects
+Version: 0.1.0
+Authors@R: 
+    person("Denny", "Leandro", , "dennyleandro@gmail.com", role = c("aut", "cre"))
+Description: Estimates nonparametric multivariate relative effects for two
+    groups using 'npmv' (nonpartest), computes percentile bootstrap confidence
+    intervals for each dependent variable and group, and draws a profile plot
+    of the relative effects with their bootstrap bands using 'ggplot2'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr,
+    ggplot2,
+    npmv,
+    reshape2,
+    stats,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
